@@ -1,0 +1,14 @@
+#!/bin/sh
+# check whether there are lines starting with a % containing further
+# characters
+grep "^%..*$" `find ../data -type f`
+MORE=`find ../data-more -type f`
+if [ _"$MORE" != _"$MORE" ] ; then
+  grep "^%..*$" $MORE
+fi
+
+# other usefull checks:
+# - check empty lines after a %-line (especially for files which are
+#   build from several parts)
+# - check final files for % in the last line
+# ---> perl seems to be necessary

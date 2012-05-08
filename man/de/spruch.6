@@ -1,0 +1,51 @@
+.\" Copyright (c) 2000  Andreas Tille <tille@debian.org>
+.\"
+.\" This manual page is free software; you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation; either version 2 of the License, or
+.\" (at your option) any later version.
+.\"
+.\" This program is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License
+.\" along with this program; if not, write to the Free Software
+.\" Foundation, Inc.,59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+.\"
+.\" This manual page is written especially for Debian Linux.
+.\"
+.TH SPRUCH 6 "12/04/1999" "" "Manual for spruch"
+.SH NAME
+spruch \- deutsche fortune Spr\[:u]che
+.br
+regeln \- Bauernregeln
+.SH SYNOPSIS
+.BR spruch
+.RB [ -x "] [" -aefilosw "] [" -n
+.IR length "] ["
+.B -m
+.IR pattern "] [[" n% "] " file/dir/all ]
+.br
+.BR regeln " [" -iw "] ["
+.B -m
+.IR pattern "]
+.SH BESCHREIBUNG
+Die Skripte rufen
+.IR fortune
+mit
+.TP
+.B spruch
+einer deutschen Spruchdatenbank
+.TP
+.B regeln
+einer Datenbank witziger Bauernregeln
+.TP
+auf, falls die Variable \fBLC_ALL=de_DE\fR gesetzt ist.  Andernfalls wird \fBfortune (6)\fR mit der Standarddatenbank aufgerufen. Durch die Option \fI-x\fR kann die Benutzung der deutschen Spr\[:u]che unabh\[:a]ngig von den locale Einstellungen erzwungen werden.
+
+.SH SIEHE AUCH
+fortune.en(6)
+	
+.SH AUTHOR
+Andreas Tille <tille@debian.org>

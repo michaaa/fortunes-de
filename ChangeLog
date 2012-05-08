@@ -1,0 +1,144 @@
+fortunes-de (0.30)
+ - More cookies
+
+fortunes-de (0.29)
+ - More cookies
+
+fortunes-de (0.28)
+ - More cookies
+
+fortunes-de (0.27)
+ - More than 17500 cookies
+ - Added aphorisms by Benjamin Stramke (thanks to
+   Hans-Georg Friedmann <hgfriedmann@gmx.net> for providing the data
+
+fortunes-de (0.26)
+ - Some more cookies and some spelling fixes
+ - recode l1..u8
+
+fortunes-de (0.25)
+ - Some more cookies and some spelling fixes
+
+fortunes-de (0.24)
+ - Removed bashism from install.sh
+ - Some more cookies and some spelling fixes
+
+fortunes-de (0.23)
+ - Added  Johann Wolfgang von Goethe (Maximen und Reflexionen) collection
+   (Many thanks to Boris Schlüszler <boris@schneiderdruck.de>)
+ - bin/spruch.sh: Verify whether /etc/locale.alias exists before reading it
+
+fortunes-de (0.21)
+ - Enable removal of specific parts of the fortune database.
+ - Split infodrom and linuxtag from computer
+
+fortunes-de (0.13)
+
+   * Now more than 15000 quotes.
+
+ -- Andreas Tille <tille@debian.org>  Mon, 29 Sep 2003 22:25:45 +0200
+ 
+fortunes-de (0.12)
+
+   * Added even more quotes.
+
+  -- Andreas Tille <tille@debian.org>  Mon,  8 Sep 2003 10:50:32 +0200
+
+fortunes-de (0.11)
+August 27
+
+  * Added more than 2000 quotes (and probably new spelling bugs ;-) )
+    Now we have 11489 quotes in this package.
+
+ -- Andreas Tille <tille@debian.org>  Wed, 27 Aug 2003 08:47:27 +0200
+
+fortunes-de (0.10)
+August 11
+
+  * install.sh -utf8
+    now installs data files UTF-8 encoded
+    
+ -- Andreas Tille <tille@debian.org>  Mon, 11 Aug 2003 18:06:24 +0200
+
+July 8, 2003
+
+  * additional and fixed cookies
+    
+ -- Andreas Tille <tille@debian.org>  Thu,  8 July 2003 13:49:17 +0200
+
+fortunes-de (0.9)
+May 1, 2003
+
+  * additional and fixed cookies
+    The section data-more was now revised and integrated in the main
+    data section.
+
+ -- Andreas Tille <tille@debian.org>  Thu,  1 May 2003 12:57:04 +0200
+ 
+fortunes-de (0.8)
+Oct 13, 2002
+
+  * work well with Debian i18n fortune
+  * bugfixes and some more cookies
+
+ -- Andreas Tille <tille@debian.org>  Sun, 13 Oct 2002 11:36:10 +0200
+
+fortunes-de (0.7) 
+Oct 7, 2002
+
+  * patch to work well with unicode.
+  * some bugfixes
+  * some more cookies
+
+ -- Andreas Tille <tille@debian.org>  Mon,  7 Oct 2002 21:40:19 +0200
+
+
+fortunes-de (0.6)
+Jun 25, 2002
+
+  * some bugfixes
+  * added directory data-more with fortunes which I had not checked or sorted
+  * bugfix in spruch script
+  
+fortunes-de (0.5)
+Mar 10, 2002
+
+  * added a patch from Fabian Ritzmann <fri@akumiitti.com>
+    to support -x option which enforces German language
+  * minor bug fixes in cookies
+  * moves original fortune to fortune.en and act as wrapper
+ 
+Jan 2, 2002
+
+  * used locale in spruch script
+    Thanks to Robert Bihlmeyer <robbe@orcus.priv.at>
+
+fortunes-de (0.4) 
+Dez 17, 2001
+
+  * More cookies.
+  * Corrected fortune cookies
+  * Added http://www.infodrom.org/Infodrom/fortunes/download/linuxtag
+  * Added parts from http://www.infodrom.org/Infodrom/fortunes/download/infodrom
+  * Added some ASCII arts
+
+fortunes-de (0.3) 
+Nov 11, 2000
+
+  * Scripts recognize which database to search from their (symlink) name
+  * Single manpage for all scripts
+  * Added recipes
+  * More cookies.
+    (Some offered by Jens Benecke <jens@jensbenecke.de>)
+
+fortunes-de (0.2) 
+Sep 15, 2000
+
+  * More cookies.
+  * Overworked scripts.
+
+fortunes-de (0.1) 
+
+  * Initial Release.
+
+ -- Andreas Tille <tille@debian.org>  Fri, 24 Dec 1999 11:45:48 +0100

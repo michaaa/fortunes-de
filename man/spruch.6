@@ -1,0 +1,57 @@
+.\" Copyright (c) 2000  Roland Rosenfeld <roland@debian.org>
+.\"               
+.\" This manual page is free software; you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation; either version 2 of the License, or
+.\" (at your option) any later version.
+.\" 
+.\" This program is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\" 
+.\" You should have received a copy of the GNU General Public License
+.\" along with this program; if not, write to the Free Software
+.\" Foundation, Inc.,59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+.\"
+.\" This manual page is written especially for Debian Linux.
+.\"
+.TH SPRUCH 6 "July 2000" "Debian Project" "Debian GNU/Linux"
+.SH NAME
+spruch \- print a random German adage
+.br
+regeln \- print a random German peasant's maxim
+.SH SYNOPSIS
+.B spruch
+.RB [ -x "] [" -aefilosw "] [" -n
+.IR length "] ["
+.B -m
+.IR pattern "] [[" n% "] " file/dir/all ]
+.br
+.B regeln
+.RB [ -iw "] ["
+.B -m
+.IR pattern ]
+.SH DESCRIPTION
+The scripts call 
+.B fortune (6)
+with
+.TP
+.B spruch
+  a German adage database 
+.br
+.TP
+.B regeln
+  database of funny German peasant's maxims, 
+.br
+.TP
+if your locale settings point to \fB'de'\fR or \fB'de_DE'\fR . Otherwise \fBfortune (6)\fR is called with the default database. By using \fI-x\fR option you can enforce German cookies independent from the locale settings.
+.SH SEE ALSO
+.BR fortune.en (6),
+.BR locale (1).
+.SH AUTHOR
+.B spruch
+was written by Andreas Tille <tille@debian.org>.
+.PP
+This manual page was created by Roland Rosenfeld <roland@debian.org>
+for the Debian GNU/Linux system (but may be used by others).

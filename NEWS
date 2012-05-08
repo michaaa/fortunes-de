@@ -1,0 +1,45 @@
+News for 0.26
+ - Now UTF-8 encoded
+
+News for 0.21
+ - Enable removal of specific parts of the fortune database.
+
+News for 0.13
+ - Even more new quotes. We have now more than 15000 cookies.
+
+News for 0.12
+ - Even more new quotes. We have now more than 13000 cookies.
+
+News for 0.11
+ - More than 2000 new quotes
+
+News for 0.10
+ - Used ispell on most of the cookie files
+ - install.sh -utf8
+   now installs data files UTF-8 encoded
+
+News for 0.9
+ - Checked and sorted the cookies which were introduced unchecked in 0.6
+
+News for 0.8
+ - Work with Debian i18n fortune
+
+News for 0.7
+ - Unicode fix
+
+News for 0.6
+ - Unchecked and unsorted fortunes
+
+News for 0.5
+ - -x option ignores locale settings and enforces German cookies
+ - moves original fortune to fortune.en and act as wrapper
+
+News for 0.4
+ - more fortune cookies
+ - corrected fortune cookies
+ - http://www.infodrom.org/Infodrom/fortunes/download/linuxtag
+ - added parts from http://www.infodrom.org/Infodrom/fortunes/download/infodrom
+
+News for 0.3:
+ - more fortune cookies
+ - Some recipes and scripts to call recipes database

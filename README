@@ -1,0 +1,20 @@
+README for fortune-de
+---------------------
+
+The database was compiled from several postings in usenet, open mailing
+lists as well as web pages.  So it is public domain and I put this data
+base under GPL or GPL-Deutsch. The database can be obtained under *both*
+the original Englisch GPL *or* the German translation.  Please read the
+introduction to GPL-Deutsch carefully to understand why the license is
+not just the German translation itself but anadditional license.
+
+The database might be a starting point for a German fortune database.
+I want to make clear that I have no interest in maintaining the
+database myself.  It should be just a starting kick.
+
+How to enhance the Database?
+Please read the file LIESMICH.  Ich your German is not good enough
+to understand it, you might consider to enhance fortune databases
+in other languages.
+
+Andreas Tille <tille@debian.org>

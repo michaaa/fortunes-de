@@ -1,0 +1,34 @@
+LIESMICH aus fortune-de
+-----------------------
+
+Ich habe mich bemüht einen Grundstock für eine deutsche Spruchdatenbank
+zu legen, die für das UNIX-üblichen fortune geeignet ist.  Die überwiegende
+Anzahl der Datensätze stammt aus E-Mail-Listen, News-Foren oder Webseiten.
+
+Ich habe mich bemüht, die Datenbank möglichst frei von verletzenden
+Inhalten zu halten.  Möglicherweise sind mir dabei die einen oder
+anderen Dinge entgangen, da ich nicht alles selbst gelesen habe, sondern
+auch Zusendungen von anderen erhalten habe.  Ich bitte daher alle, die
+derartige Sprüche finden, die Datenbank zu korrigieren.  Die Daten
+stehen unter GPL *oder* GPL-Deutsch.  Die Einleitung vor der deutschen
+Übersetzung erklärt, warum die Lizens nicht einfach nur GPL-Deutsch
+ist, denn eine *offizielle* Übersetzung existiert nicht.  Daher stelle
+ich es dem Nutzer frei unter welcher Lizenz er diese Daten nutzen möchte.
+
+Natürlich sind auch Erweiterungen stets willkommen.  Insbesondere
+wäre mir an der Erweiterung der literarischen Zitate gelegen.  Eine
+große Hilfe könnte dabei das Projekt Gutenberg http://gutenberg.aol.de
+bieten.  Bei Übersetzungen aus der Englischen fortune Datenbank bitte
+ich darauf zu achten, daß ursprüngliche deutschsprachige Zitaten
+(Einstein, Goethe, etc.) in der Originalform (!!) und nicht als
+Rückübersetzung aus dem Englischen eingefügt werden.
+
+Ich lege wert darauf, daß diese im File ChangeLog ordentlich dokumentiert
+werden. Aus Zeitgründen werde ich die Datenbank *nicht* weiterpflegen,
+sondern hoffe, daß sich jemand findet, der für die Datenbank einen
+geeigneten FTP-Server sucht und die Pflege übernimmt.  Als Debian-
+Entwickler genügt es mir, dieses Paket in Debian zu integrieren und
+hoffe, daß es auf diese Weise auch in anderen Distributionen Verbreitung
+findet.
+
+Andreas Tille <tille@debian.org>

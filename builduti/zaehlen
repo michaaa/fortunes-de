@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# count the cookies
+A=`grep "^%" \`find ../data -type f\` | wc -l`
+# count the additional cookies
+datamore=`find ../data-more -type f`
+if [ _"" != _"${datamore}" ] ; then
+   Ax=`grep "^%" ${datamore} | wc -l`
+fi
+# count data which are to be formated
+B=`wc -l ../predata/pre* | tail -n1 | sed "s/ *\([0-9]*\).*/\1/"`
+# count the recipes
+C=0
+for rec in `find ../rezepte -type d` ; do
+  if [ $rec != "../rezepte" ] ; then
+    x=`ls $rec | wc -l | tail -n1 | sed "s/ *\([0-9]*\).*/\1/"`
+    C=$(($C+$x))
+  fi
+done
+# sum of all
+echo $A + $Ax + $B + $C = $(($A+$Ax+$B+$C))

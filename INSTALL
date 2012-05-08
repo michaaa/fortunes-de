@@ -1,0 +1,34 @@
+Please read the file README first.
+
+Sorry, I have said you should read the file README first, also if
+it is not your common habit.
+
+Oh dear please read this view lines of the README file.
+
+OK, now you know what it is.
+Installation is only rudimentary and requres some work from
+volunteers.  That's why I pointed you to the README file because
+I wented to inform you that I will not add more comfort to this
+package.  I only wanted to start the stone roling.  You can
+keep it doing so yourself.
+
+Prepend the call to ./install.sh by the following variables to
+get the right locations.  I enclosed the default value in <>
+
+PREFIX=</usr/local>
+DOCDIR=</usr/local/doc/fortune-de-$VERSION>
+FORTUNESDIR=</usr/local/share/games/fortunes>
+BINDIR=</usr/local/bin>
+
+Example (so it is used in the Debian build rule):
+
+        PREFIX=`pwd`/debian/tmp DOCDIR=usr/share/doc/$(package) \
+	FORTUNESDIR=$(inst_dir) BINDIR=/usr/bin ./install.sh
+
+Just add "-utf8" option to the install.sh script to install datafiles
+UTF-8 encoded.
+	
+	Happy fortunes
+	
+	Andreas Tille <tille@debian.org>
+	
